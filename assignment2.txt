@@ -1,0 +1,409 @@
+1)a)hungry- valid
+  b)2AB -   invalid(number at start)
+  c)312.2 - invalid (number at start )
+  d)MOBILE - valid
+  e)"Ans" - invalid ( quotation at start)
+  f)$30 -   valid
+  g)Yes/No - invalid (due to having / and / not allowed)
+  h)student-id - invalid ( having hyphen)
+  i)A+3 -  invalid (have plus )
+  j)'X' - invalid  (quotation )
+  k)return - invalid (java key word) 
+
+2)2.1)public class Task2
+{ public static void main(String[]args)
+  {
+  
+   int a=5;
+   System.out.println(a); //5
+  
+  
+   }
+} 
+2.2)public class Task2
+{ public static void main(String[]args)
+  {
+  
+   int a=5;
+   int b= 10;
+   System.out.println(a+b); //15
+  
+  
+   }
+} 
+
+2.3)public class Task2
+{ public static void main(String[]args)
+  {
+  
+   int a=32;
+   int b= 4;
+   System.out.println(a*b); //128
+   System.out.println(a/b); //8
+  
+   }
+} 
+
+2.4)(DOUBLE TYPE DATA)
+SHOW STORE DATA:
+public class Task2
+{public static void main(String[]args)
+  {
+  
+   double a=5;
+   System.out.println(a); //5.0
+  
+  
+  }
+} 
+SUM:
+public class Task2
+{ public static void main(String[]args)
+  {
+  
+   double a=5;
+   double b= 10;
+   System.out.println(a+b); //15.0
+  
+  
+   }
+} 
+PRODUCT AND DIVISION:
+
+public class Task2
+{ public static void main(String[]args)
+  {
+  
+   double a=32;
+   double b= 4;
+   System.out.println(a*b); //128.0
+   System.out.println(a/b); //8.0
+  
+   }
+} 
+
+2.5)(ONE DOUBLE AND ONE INTEGER DATA)
+SHOW STORE DATA:
+
+public class Task2
+{ public static void main(String[]args)
+  {
+  
+   double a=5;
+   int b =10;
+   System.out.println(a); //5.0
+   System.out.println(b); //10
+  
+  }
+} 
+
+SUM:
+
+public class Task2
+{ public static void main(String[]args)
+  {
+  
+   double a=5;
+   int b =10;
+   System.out.println(a+b); //15.0
+  
+   }
+} 
+
+PRODUCT AND DIVISION:
+
+public class Task2
+{  public static void main(String[]args)
+  {
+  
+   double a=32;
+   int b= 4;
+   System.out.println(a*b); //128.0
+   System.out.println(a/b); //8.0
+  
+   }
+} 
+
+2.6)(STRING TYPE DATA)
+STORE DATA:
+
+public class Task2
+{ public static void main(String[]args)
+  {
+  String st1="Ahnaf";
+   
+  System.out.println(st1); //Ahnaf
+  
+  
+  }
+} 
+
+SUM:(BOTH STRINGS)
+
+public class Task2
+{  public static void main(String[]args)
+  {
+  String st1="Ahnaf ";
+  String st2="Ashique "; 
+  System.out.println(st1+st2); // Ahnaf Ashique
+  
+  
+  }
+} 
+SUM:( IF ONE STRING ,ONE INTEGER )
+ Case1(first varible is integer and second one is string ) :
+
+public class Task2
+{public static void main(String[]args)
+  {
+  int a=10;
+  String st1=" Ahnaf";
+   
+  System.out.println(a+st1); // 10 Ahnaf
+  
+  
+  }
+} 
+
+Case 2(first varible is string and second one is integer):
+
+public class Task2
+{ public static void main(String[]args)
+  {
+  
+  String st1=" Ahnaf ";
+   int a = 10;
+  System.out.println(st1+a);// Ahnaf 10
+  
+  
+  }
+} 
+
+3)CIRCLE CIRCUMFERENCE AND AREA:
+
+public class Task3
+ { public static void main (String[]args)
+  {
+    double r=4; //radius=4
+    
+    double pi;
+    pi= 3.1416;
+    double area_cir;
+    double circum_cir;
+    area_cir= pi*r*r;
+    circum_cir= 2*pi*r;
+    System.out.println("Circumference of circle: "+ circum_cir); //25.1328
+    System.out.println("Area of circle: "+ area_cir); //50.2656
+  }
+}
+
+4)(LAST TWO NUMBER OF ANY INTEGER)(WITHOUT Using Scanner)
+
+public class Task4
+{  public static void main (String[]args)
+  { int num1= 2345;
+   int last_two_digits;
+   last_two_digits=(num1)%100;
+   System.out.println("Last two digits of given number: "+ last_two_digits); //45
+    }
+}
+5)public class Task5
+{  public static void main (String[]args)
+  { //1 inch= 0.0254 meters
+  double a=1000;
+  System.out.println("Given number in inches: " +a);
+  double  inch_to_meter;
+  inch_to_meter=0.0254;
+  double Meters;
+  Meters=a*inch_to_meter;
+  System.out.println("The number in meters: "+ Meters);
+    }
+}
+6)a)(Using third variable)
+public class Task6
+{  public static void main (String[]args)
+  {
+   int a=10;
+   int b=5;
+   int c;
+   c=a;//c=10
+   a=b;//a=5
+   b=c;//b=10
+   System.out.println(a);//5
+   System.out.println(b);//10
+  }
+}
+ b) (without third varible)
+
+public class Task6
+{  public static void main (String[]args)
+  {
+   int a =5;
+   int b=10;
+   a=a+b;//15
+   b=a-b;//5
+   a=a-b;//10
+   System.out.println(a);//10
+   System.out.println(b);//5
+   
+  }
+}
+
+7)public class Task7
+{ public static void main(String[] args) 
+  {
+     //given number of minute:3456789
+   int min=3456789;
+  // 1 year= 365 days
+  // 1day =24 hour
+  // 1 hour= 60min 
+  int hour_to_min=60;
+  int  day_to_hour=24;
+  int year_to_day=365;
+  System.out.println("Given the number of minutes: "+min);
+ double days= (double)(min)/(hour_to_min*day_to_hour);
+      
+ double Year= (double)days/year_to_day;
+  
+ int year= (int)days/(year_to_day);
+ double rem_day= ((double)Year- (int)year)*year_to_day;
+  int rem_Day= (int)rem_day;
+  
+  System.out.println(min+" minutes is approximately "+year+" years and "+rem_Day+" days");
+      
+      
+      
+    }   
+}
+ 
+8)public class Task8
+{ public static void main(String[]args)
+  {
+  
+ int a=2;
+ int b=5;
+ int c=8;
+ int d;
+ 
+ d=(2*b*((c-a)/3))+7;
+  System.out.println("The value of variable d: "+d);//27 
+ }
+}
+9)public class Task9
+{ public static void main(String[]args)
+  {  int n=5;
+   int table; 
+  table =n*1;
+  System.out.println(n+" x "+1+" = "+table);
+   table =n*2;
+  System.out.println(n+" x "+2+" = "+table);
+  table =n*3;
+  System.out.println(n+" x "+3+" = "+table);
+   table =n*4;
+  System.out.println(n+" x "+4+" = "+table);
+   table =n*5;
+  System.out.println(n+" x "+5+" = "+table);
+   table =n*6;
+  System.out.println(n+" x "+6+" = "+table);
+   table =n*7;
+  System.out.println(n+" x "+7+" = "+table);
+   table =n*8;
+  System.out.println(n+" x "+8+" = "+table);
+   table =n*9;
+  System.out.println(n+" x "+9+" = "+table);
+   table =n*10;
+  System.out.println(n+" x "+10+" = "+table);
+   
+   
+ }
+} 
+
+10)public class Task10
+{ public static void main(String[]args)
+  {
+     int n=100;
+     int a=1;
+     int L=100;
+      int sum=(n/2)*(a+L);
+      System.out.println("The sum of the first 100 positive numbers is: " + sum);//5050
+  
+  
+  }
+ }
+
+11)public class Task11
+{ public static void main(String[]args)
+  {
+    double a=4.5;
+    double b=9.5;
+    
+   double c= Math.sqrt((a*a)+(b*b)); 
+   double sinA=(a/c);
+   double sinB=(b/c);
+   double cosA=(b/c);
+   double cosB=(a/c);
+   System.out.println("Sin(A) = " + sinA);
+   System.out.println("Cos(A) = " + cosA);
+   System.out.println("Sin(B) = " + sinB);
+   System.out.println("Cos(B) = " + cosB);
+  
+  
+  
+  }
+}
+
+ 
+12)public class Task12
+{ public static void main(String[]args)
+  {
+    int student_id=24101165;
+    int last_digit=student_id%10;
+    System.out.println(last_digit);
+    student_id=student_id/10;
+      int second_last_digit=student_id%10;
+    System.out.println(second_last_digit);
+    
+    
+  
+  }
+}
+
+13)public class Task13
+{
+    public static void main(String[] args)
+    
+    { double dis_meter=1165;
+      System.out.println("Input distance in meters: " + dis_meter);
+      
+      double time_hour=5+(56/60.0)+(23/3600.0);
+   
+      double dis_kilo=(dis_meter)/1000.0;
+       double dis_mile=(dis_meter)/1609.0;
+  double vel_Kilo_hour=(dis_kilo/time_hour);
+  double vel_mile_hour=(dis_mile/time_hour);
+  System.out.println("Your velocity in km/h is "+ vel_Kilo_hour);
+      System.out.println("Your velocity in miles/h is "+ vel_mile_hour);
+  
+    }
+}
+
+14)public class Task14
+{
+    public static void main(String[] args)
+    
+    { 
+      
+        double a = 8;// short diagonal
+        double b = 3;// height
+        double half_a=4;
+        double s=Math.sqrt((half_a*half_a)+(b*b));// one side 
+
+        double circumference = 6 * s;
+        double area = (3 * Math.sqrt(3) / 2) * s * s;
+
+        System.out.println("The circumference of the hexagon is: " + circumference);
+        System.out.println("The area of the hexagon is: " + area);
+  
+    }
+}
+
